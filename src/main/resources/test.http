@@ -1,0 +1,11 @@
+POST http://localhost:8080/rest
+Content-Type: application/json
+
+{
+  "type": "test",
+  "ingredient": "test1"
+}
+
+###
+
+GET http://localhost:8080/rest

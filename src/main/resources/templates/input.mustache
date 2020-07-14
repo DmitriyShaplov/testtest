@@ -1,0 +1,19 @@
+<html>
+<body>
+<div>
+    <form method="post">
+        <input type="text" name="type" placeholder="Добрый день! Введите название напитка:"/>
+        <input type="text" name="ingredient" placeholder="Укажите состав напитка"/>
+        <button type="submit">Добавить</button>
+    </form></div>
+<div>Меню</div>
+{{#messages}}
+<div>
+    <b>{{id}}</b>
+    <span>{{type}}</span>
+    <i>{{ingredient}}</i>
+</div>
+
+{{/messages}}
+</body>
+</html>
